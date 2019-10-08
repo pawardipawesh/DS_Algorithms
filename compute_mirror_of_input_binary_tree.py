@@ -24,18 +24,12 @@ root.inorder_traversal()
 
 
 def create_mirror(root):
+    
     if root==None:
         return None
     
-    if root.left!=None:
-        left_mirrored=create_mirror(root.left)
-    else:
-        left_mirrored=None
-    
-    if root.right!=None:
-        right_mirrored=create_mirror(root.right)
-    else:
-        right_mirrored=None
+    left_mirrored=create_mirror(root.left)
+    right_mirrored=create_mirror(root.right)
     
     root.left=right_mirrored
     root.right=left_mirrored
