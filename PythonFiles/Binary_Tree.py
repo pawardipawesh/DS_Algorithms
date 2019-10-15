@@ -1,9 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[5]:
-
-
+#This class will a base class for creating binary tree and traversing it.
 class Binary_Tree():
     def __init__(self,data,left,right):
         self.data=data
