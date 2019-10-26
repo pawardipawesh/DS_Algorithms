@@ -7,4 +7,4 @@
 - print_matrix_digonally : traverses the matrix digonally and print each digonal on seperate line
 - compute_mirror_of_given_binary_tree : mirrors input binary tree
 - Vertical_Order_Traversal : Traverses tree in vertical order....Please find example at [example](https://www.geeksforgeeks.org/print-binary-tree-vertical-order-set-2/)
-
+- Water in a Bar Graph Problem [Nice video]{https://www.youtube.com/watch?v=UzeL2GcLx3Y}
